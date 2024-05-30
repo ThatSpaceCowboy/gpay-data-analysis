@@ -11,7 +11,7 @@ def datetimeextractor(date_time):
 
 # Function to parse HTML and extract data
 def extract_data_from_html(html_content):
-    i=0
+    i=1
     soup = BeautifulSoup(html_content, 'lxml')
     records = []
 
@@ -82,7 +82,7 @@ def extract_data_from_html(html_content):
         except Exception as e:
             print(f"Error extracting data from div: {e}")
     
-    print('Num of transactions:' + str(i)) #Match this with (rows in output.csv)-1
+    print('Num of transactions:' + str(i)) #Match this with rows in output.csv, if they are not equal means some transaction was not processed correctly (error).
     return records
 
 # Function to write data to CSV
