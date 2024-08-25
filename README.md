@@ -13,6 +13,4 @@ Transaction Data Analysis
 Congrats!! Now you have the csv file of the format:
 <img width="372" alt="Screenshot 2024-06-12 at 9 14 42 AM" src="https://github.com/ThatSpaceCowboy/gpay-data-analysis/assets/41112158/587dc8bb-5b94-485a-9d7a-7abad6cc4350">
 
-Currently working on the notebook to perform all kinds of data analysis. 
-Meanwhile if you wish to do your own data analysis feel free to do so. 
-You can also help by contributing your notebook to this repo. It would be much appreciated. 
+Now you can use this file to either perform your own EDA or use my gpayeda.ipynb notebook to get started.
